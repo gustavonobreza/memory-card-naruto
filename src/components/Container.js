@@ -147,7 +147,7 @@ const Container = () => {
     const getCharacters = async () => {
       try {
         const response = await axios.get(
-          "https://naruto-api.herokuapp.com/api/v1/characters"
+          "https://naruto-api-rsl3.onrender.com/api/v1/characters"
         );
         setCharacters(response.data);
       } catch (error) {
